@@ -1,5 +1,5 @@
-import 'boostrap';
-import 'boostrap/dist/css/boostrap.main.css';
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { createApp } from 'vue'
 

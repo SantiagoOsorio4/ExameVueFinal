@@ -1,6 +1,6 @@
 <template>
     <div class="container" id="carreras">
-        <h1>Categories List</h1>
+        <h1>Carreras List</h1>
         <table class="table">
                         <thead>
                             <tr>
@@ -8,8 +8,9 @@
     </tr>
   </thead>
   <tbody>
-    <tr tr v-for="carrera in carreras">
-      <td>{{$carreras.Nom_Car}}</td>
+    <tr tr v-for="(carreras,index) in carreras " :key="index">
+      <th scope="row">{{ index + 1 }}</th>
+      <td>{{carreras.Nom_Car}}</td>
     </tr>
   </tbody>
 </table>
@@ -18,8 +19,6 @@
     
     <script>
     import axios from 'axios'
-    
-    
     export default{
     
         name: 'carreras',
