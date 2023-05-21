@@ -2,8 +2,9 @@
     <div class="container" id="carreras">
         <h1>Carreras List</h1>
         <table class="table">
-                        <thead>
-                            <tr>
+  <thead>
+    <tr>
+      <th scope="col">#</th>
       <th scope="col">Carreras</th>
     </tr>
   </thead>
